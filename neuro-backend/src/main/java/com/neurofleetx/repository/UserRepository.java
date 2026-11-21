@@ -1,0 +1,18 @@
+package com.neurofleetx.repository;
+
+import com.neurofleetx.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.Optional;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+    Optional<User> findByEmail(String email);
+
+    Optional<User> findByUsername(String username);
+
+    java.util.List<User> findByVerificationStatus(String verificationStatus);
+
+    java.util.List<User> findByRole(String role);
+
+    // Report methods
+    java.util.List<User> findByRoleAndVerificationStatus(String role, String verificationStatus);
+}
