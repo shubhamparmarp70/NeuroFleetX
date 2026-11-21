@@ -1,0 +1,21 @@
+# Dependencies and generated output
+**/node_modules/
+**/target/
+**/build/
+**/coverage/
+*.log
+build_log.txt
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local uploads may contain personal documents
+neuro-backend/uploads/
+
+# Local editor settings
+.vscode/
+
+# Local-only project document
+/Predictive Maintenance.docx
