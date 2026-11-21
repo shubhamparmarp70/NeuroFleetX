@@ -1,2 +1,0 @@
-# NeuroFleetX
-Project - NeuroFleetX 
