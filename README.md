@@ -672,4 +672,4 @@ See [LICENSE](LICENSE) for details.
 
 ---
 
-*Built with ❤️ by the NeuroFleetX team — Infosys Springboard 6.0*
+Built by the NeuroFleetX team 1 — Infosys Springboard 6.0*
